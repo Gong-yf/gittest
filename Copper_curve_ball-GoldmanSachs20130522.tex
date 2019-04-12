@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage[noindent]{ctexcap}
+\usepackage{amsmath,amssymb,amsthm,pifont,curves} % math package
+\usepackage{multicol} % multicolumns
+\usepackage{color}
+
+\title{Note of Copper curve ball}
+\author{Gong Yifan}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+本文是对高盛2013/5/22的报告Copper curve ball的笔记。\par
+\section{introduction}
+中国资本控制+中美利差~导致商品质押融资的盛行。导致近期中国短期外汇贷款的上升（相应的人民币承压），中国外汇管理局宣布了新的管制措施（5/5），将在六月开始实施。\par
+本文给出了商品质押的例子，评估了中国铜融资（CCFDs）与铜市场脱钩造成的影响。CCFDs的脱钩可能导致铜价的熊市，因为这使得
+{\color{red}铜现货从正资产(可以用来的赚取利差）成为负资产（持有成本，融资成本高于升水）}
+
+\section{中国铜融资循环可能终结}
+中国资本控制+中美利差~导致商品质押融资的盛行，以此进行利率套利。
+导致近期中国短期外汇贷款的上升（相应的人民币承压），中国外汇管理局（SAFE）宣布了新的管制措施（5/5），将在六月开始实施。\par
+我们认为，SAFE的政策将会使中国商品质押在未来1-3个月内终结。但由于政策实施、政策实际影响市场的速度和影响程度的不确定性，CCFDs的彻底终结仍只是一个风险因素\par
+我们估计中国约有51万吨的铜（海关仓库内和运输路程中）用于商品质押。如果CCFDs完全结束，铜现货将从正资产(可以用来的赚取利差）成为负资产（持有成本，融资成本高于升水）。
+这会导致LME现货承压，我们预计LME将需要额外消化20-25万吨的铜现货，约为全球季度产量的4-5\%。这会导致现货价格下行，更高的期货升水。
+目前，LME3-15月升水为1.1\%,持有成本(full carry)为3-3.5\%\par
+
+\section{SAFE的新政策}
+
+\section{典型的CCFD流程}
+参与者：\begin{itemize}
+    \item[Party\ A] 离岸贸易公司
+    \item[Party\ B] 在岸贸易公司
+    \item[Party\ C] B的离岸子公司
+    \item[Party\ D] 注册在国内的在岸或离岸银行
+\end{itemize}
+过程:\begin{itemize}
+    \item[step 1:] A将海关仓单以价格X卖给B。B获得仓单，A获得D开具的美元信用证。
+    \item[step 2:] B把仓单卖给C（B的子公司），C支付美元或离岸人民币。C获得仓单，B获得美元或离岸人民币并通过D换为在岸人民币，获取国内人民币的无风险利率收益。
+    \item[step 3:] C把仓单以低于X的价格（一般低10-20\$/t)卖给A。A获得仓单，C获得美元。这里回到了第一步开始的状态。
+    \item[step 4:] 重复步骤1-3.在美元信用证期限内（3-12月），一般可以重复10-30次。
+\end{itemize}
+
+\section{CCFD中各方的收益}
+下面给出一个例子说明在CCFD中每吨铜现货各参与者的收益。\par设上述第四步中循环次数为$c$,
+\begin{itemize}
+    \item[Party\ A] 第三步中10-20\$*$c$.
+    \item[Party\ B] B的成本为美元信用证的利率（约为2.5\%）和仓单循环中支付给A的部分,收益为人民币的利率（约为5\%），以铜价7500\$/t计算，收益为1675-4425\$*$c$.
+    \item[Party\ C] B的子公司
+    \item[Party\ D] D的成本为央行的融资成本，收益为美元信用证的利率（约为2.5\%），以铜价7500\$/t计算，收益为375-1125\$*$c$.
+\end{itemize}
+
+\section{CCFD终结对参与者的影响}
+\begin{itemize}
+    \item[Party\ A] 没有了每次循环10-20\$/t的收益，A很可能卖出铜现货（期货溢价并不足以抵消仓位租金和利息的成本）。
+                    A持有的铜现货可能流入市场，同时A也可能平仓在LME铜期货的空头头寸。
+    \item[Party\ B,C] B和C可能会降低它们的美元信用证负债，方法是出售流动资产归还美元信用证负债或借取离岸美元，并把信用证负债展期为离岸的美元负债。
+    \item[Party\ D] 为了满足外管局的新监管规则，D将可能通过降低开立信用证的数量和（或）增加外汇净多头头寸.
+\end{itemize}
+
+\section{对铜价的影响}
+
+\section{概念}
+信用证：
+\end{document}
